@@ -480,33 +480,39 @@
 		</dict>
 		<dict>
 			<key>PayloadCertificateFileName</key>
-			<string>gsr4.der</string>
+			<string>giag4ecc.der</string>
 			<key>PayloadContent</key>
 			<data>
-			MIIB3DCCAYOgAwIBAgINAgPlfvU/k/2lCSGypjAKBggqhkjOPQQD
+			MIICzTCCAnSgAwIBAgINAfCcV4rg6fwYVYZ8ZDAKBggqhkjOPQQD
 			AjBQMSQwIgYDVQQLExtHbG9iYWxTaWduIEVDQyBSb290IENBIC0g
 			UjQxEzARBgNVBAoTCkdsb2JhbFNpZ24xEzARBgNVBAMTCkdsb2Jh
-			bFNpZ24wHhcNMTIxMTEzMDAwMDAwWhcNMzgwMTE5MDMxNDA3WjBQ
-			MSQwIgYDVQQLExtHbG9iYWxTaWduIEVDQyBSb290IENBIC0gUjQx
-			EzARBgNVBAoTCkdsb2JhbFNpZ24xEzARBgNVBAMTCkdsb2JhbFNp
-			Z24wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8u
-			ORkcA6SumuU5BwkWymOxuYb4ilfBV85C+nOh92VC/x7BALJucw7/
-			xyHlGKSq2XE/qNS5zowdo0IwQDAOBgNVHQ8BAf8EBAMCAYYwDwYD
-			VR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUVLB7rUW44kB/+wpu+74z
-			yTyjhNUwCgYIKoZIzj0EAwIDRwAwRAIgIk90crlgr/HmnKAWBVBf
-			w147bmF0774BxL4YSFlhgjICICadVGNA3jdgUM/I2O2dgq43mLyj
-			j0xMqTQrbO/7lZsm
+			bFNpZ24wHhcNMTgxMTAxMDAwMDQyWhcNMjgxMTAxMDAwMDQyWjBF
+			MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNl
+			cnZpY2VzIExMQzESMBAGA1UEAxMJR0lBRzQgRUNDMFkwEwYHKoZI
+			zj0CAQYIKoZIzj0DAQcDQgAEWgDxDsTP7Od9rB8TPUltMacYCHYI
+			NthcDjlPu3wP0Csmy6Drit3ghqaTqFecqcgks5RwcKQkT9rbY3e8
+			lHuuA6OCATwwggE4MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAU
+			BggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIB
+			ADAdBgNVHQ4EFgQUgIz8FgrI85nOXJO/Y+NKlsucmbQwHwYDVR0j
+			BBgwFoAUVLB7rUW44kB/+wpu+74zyTyjhNUwYAYIKwYBBQUHAQEE
+			VDBSMCUGCCsGAQUFBzABhhlodHRwOi8vb2NzcC5wa2kuZ29vZy9n
+			c3I0MCkGCCsGAQUFBzAChh1odHRwOi8vcGtpLmdvb2cvZ3NyNC9n
+			c3I0LmNydDAyBgNVHR8EKzApMCegJaAjhiFodHRwOi8vY3JsLnBr
+			aS5nb29nL2dzcjQvZ3NyNC5jcmwwHQYDVR0gBBYwFDAIBgZngQwB
+			AgEwCAYGZ4EMAQICMAoGCCqGSM49BAMCA0cAMEQCIHefcgvUaglz
+			gnTWmDYl1CWeX3GXf0bC9zKDpXDXQSv+AiB4uN8G0OaMfc6LQXcg
+			3EBGX/3ER7kj6WdPct/JGbt3gw==
 			</data>
 			<key>PayloadDescription</key>
-			<string>Adds a CA root certificate</string>
+			<string>Adds a PKCS#1-formatted certificate</string>
 			<key>PayloadDisplayName</key>
-			<string>GlobalSign</string>
+			<string>GIAG4 ECC</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.security.root.4180A95E-47FE-4B80-B431-3D15E8237B32</string>
+			<string>com.apple.security.pkcs1.D3D342E7-03D3-43B8-89BF-4E0F9029C5F4</string>
 			<key>PayloadType</key>
-			<string>com.apple.security.root</string>
+			<string>com.apple.security.pkcs1</string>
 			<key>PayloadUUID</key>
-			<string>4180A95E-47FE-4B80-B431-3D15E8237B32</string>
+			<string>D3D342E7-03D3-43B8-89BF-4E0F9029C5F4</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -977,6 +983,38 @@
 			<key>URL</key>
 			<string>https://medinas.proprogram.net/Medinas.mobileconfig</string>
 		</dict>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>gsr4.der</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIB3DCCAYOgAwIBAgINAgPlfvU/k/2lCSGypjAKBggqhkjOPQQD
+			AjBQMSQwIgYDVQQLExtHbG9iYWxTaWduIEVDQyBSb290IENBIC0g
+			UjQxEzARBgNVBAoTCkdsb2JhbFNpZ24xEzARBgNVBAMTCkdsb2Jh
+			bFNpZ24wHhcNMTIxMTEzMDAwMDAwWhcNMzgwMTE5MDMxNDA3WjBQ
+			MSQwIgYDVQQLExtHbG9iYWxTaWduIEVDQyBSb290IENBIC0gUjQx
+			EzARBgNVBAoTCkdsb2JhbFNpZ24xEzARBgNVBAMTCkdsb2JhbFNp
+			Z24wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8u
+			ORkcA6SumuU5BwkWymOxuYb4ilfBV85C+nOh92VC/x7BALJucw7/
+			xyHlGKSq2XE/qNS5zowdo0IwQDAOBgNVHQ8BAf8EBAMCAYYwDwYD
+			VR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUVLB7rUW44kB/+wpu+74z
+			yTyjhNUwCgYIKoZIzj0EAwIDRwAwRAIgIk90crlgr/HmnKAWBVBf
+			w147bmF0774BxL4YSFlhgjICICadVGNA3jdgUM/I2O2dgq43mLyj
+			j0xMqTQrbO/7lZsm
+			</data>
+			<key>PayloadDescription</key>
+			<string>Adds a CA root certificate</string>
+			<key>PayloadDisplayName</key>
+			<string>GlobalSign</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.root.4180A95E-47FE-4B80-B431-3D15E8237B32</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>4180A95E-47FE-4B80-B431-3D15E8237B32</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
 	<string>Medinas is a social media application that requires discord to run properly</string>
@@ -991,7 +1029,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>FD1F22E6-587F-4E86-A365-A419FF75612A</string>
+	<string>E59385EC-57EB-4E15-AD29-72DC66F13C65</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
