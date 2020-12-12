@@ -517,38 +517,6 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>PayloadCertificateFileName</key>
-			<string>gsr4.der</string>
-			<key>PayloadContent</key>
-			<data>
-			MIIB3DCCAYOgAwIBAgINAgPlfvU/k/2lCSGypjAKBggqhkjOPQQD
-			AjBQMSQwIgYDVQQLExtHbG9iYWxTaWduIEVDQyBSb290IENBIC0g
-			UjQxEzARBgNVBAoTCkdsb2JhbFNpZ24xEzARBgNVBAMTCkdsb2Jh
-			bFNpZ24wHhcNMTIxMTEzMDAwMDAwWhcNMzgwMTE5MDMxNDA3WjBQ
-			MSQwIgYDVQQLExtHbG9iYWxTaWduIEVDQyBSb290IENBIC0gUjQx
-			EzARBgNVBAoTCkdsb2JhbFNpZ24xEzARBgNVBAMTCkdsb2JhbFNp
-			Z24wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8u
-			ORkcA6SumuU5BwkWymOxuYb4ilfBV85C+nOh92VC/x7BALJucw7/
-			xyHlGKSq2XE/qNS5zowdo0IwQDAOBgNVHQ8BAf8EBAMCAYYwDwYD
-			VR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUVLB7rUW44kB/+wpu+74z
-			yTyjhNUwCgYIKoZIzj0EAwIDRwAwRAIgIk90crlgr/HmnKAWBVBf
-			w147bmF0774BxL4YSFlhgjICICadVGNA3jdgUM/I2O2dgq43mLyj
-			j0xMqTQrbO/7lZsm
-			</data>
-			<key>PayloadDescription</key>
-			<string>Adds a CA root certificate</string>
-			<key>PayloadDisplayName</key>
-			<string>GlobalSign</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.security.root.4180A95E-47FE-4B80-B431-3D15E8237B32</string>
-			<key>PayloadType</key>
-			<string>com.apple.security.root</string>
-			<key>PayloadUUID</key>
-			<string>4180A95E-47FE-4B80-B431-3D15E8237B32</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>FullScreen</key>
 			<true/>
 			<key>Icon</key>
@@ -1003,17 +971,49 @@
 			<key>PayloadDisplayName</key>
 			<string>Web Clip</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.webClip.managed.94B7246A-46F2-46EC-808D-9C1DEDA070A3</string>
+			<string>com.apple.webClip.managed.530E7ECB-A1B2-4084-8D6C-28D0D004F748</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
-			<string>94B7246A-46F2-46EC-808D-9C1DEDA070A3</string>
+			<string>530E7ECB-A1B2-4084-8D6C-28D0D004F748</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Precomposed</key>
 			<false/>
 			<key>URL</key>
-			<string>https://pro-program.github.io/Medinas.mobileconfig</string>
+			<string>https://pro-program.github.io/medinas/Medinas.mobileconfig</string>
+		</dict>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>gsr4.der</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIB3DCCAYOgAwIBAgINAgPlfvU/k/2lCSGypjAKBggqhkjOPQQD
+			AjBQMSQwIgYDVQQLExtHbG9iYWxTaWduIEVDQyBSb290IENBIC0g
+			UjQxEzARBgNVBAoTCkdsb2JhbFNpZ24xEzARBgNVBAMTCkdsb2Jh
+			bFNpZ24wHhcNMTIxMTEzMDAwMDAwWhcNMzgwMTE5MDMxNDA3WjBQ
+			MSQwIgYDVQQLExtHbG9iYWxTaWduIEVDQyBSb290IENBIC0gUjQx
+			EzARBgNVBAoTCkdsb2JhbFNpZ24xEzARBgNVBAMTCkdsb2JhbFNp
+			Z24wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8u
+			ORkcA6SumuU5BwkWymOxuYb4ilfBV85C+nOh92VC/x7BALJucw7/
+			xyHlGKSq2XE/qNS5zowdo0IwQDAOBgNVHQ8BAf8EBAMCAYYwDwYD
+			VR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUVLB7rUW44kB/+wpu+74z
+			yTyjhNUwCgYIKoZIzj0EAwIDRwAwRAIgIk90crlgr/HmnKAWBVBf
+			w147bmF0774BxL4YSFlhgjICICadVGNA3jdgUM/I2O2dgq43mLyj
+			j0xMqTQrbO/7lZsm
+			</data>
+			<key>PayloadDescription</key>
+			<string>Adds a CA root certificate</string>
+			<key>PayloadDisplayName</key>
+			<string>GlobalSign</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.root.4180A95E-47FE-4B80-B431-3D15E8237B32</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>4180A95E-47FE-4B80-B431-3D15E8237B32</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
@@ -1029,7 +1029,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>69E50162-51C3-4328-8EB3-52A143A29870</string>
+	<string>3C88BCCD-B6AB-4BE1-BF7E-8C8C28D3A44E</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
