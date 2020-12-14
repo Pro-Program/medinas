@@ -1021,7 +1021,7 @@
 	<key>PayloadDisplayName</key>
 	<string>Medinas</string>
 	<key>PayloadIdentifier</key>
-	<string>GordonServer.F2181A36-A9F1-467E-84D9-4881D48ABE2D</string>
+	<string>net.proprogram.medinas</string>
 	<key>PayloadOrganization</key>
 	<string>Pro Program Medinas</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -1029,7 +1029,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>3C88BCCD-B6AB-4BE1-BF7E-8C8C28D3A44E</string>
+	<string>89035922-8036-4A6A-8843-F54842095D52</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
